@@ -1,0 +1,68 @@
+RTT 100 ms, Verlust 0 % je Round Trip, TCP-Startfenster 32, Pfade: / /style.css /bild1.png /bild2.png /bild3.png /bild4.png /bild5.png
+Ziel: https://server   Pfade: / /style.css /bild1.png /bild2.png /bild3.png /bild4.png /bild5.png   Durchläufe: 50
+Protokoll    n    min_ms median_ms   mean_ms    max_ms    p90_ms   conn_ms   ttfb_ms  erste_ms
+HTTP/1.1    50       421       428       428       434       432       222       320       320
+HTTP/2      50       631       644       644       658       651       214       320       322
+HTTP/3      50       534       544       544       554       549       110       217       223
+
+Fertigstellungszeit je Ressource in ms (Median/P90):
+Ressource           HTTP/1.1        HTTP/2        HTTP/3
+/                    320/324       322/430       223/230
+/style.css           320/325       534/640       459/464
+/bild1.png           426/431       644/651       543/548
+/bild2.png           426/431       644/651       542/548
+/bild3.png           426/432       644/651       542/548
+/bild4.png           427/432       644/651       543/547
+/bild5.png           427/432       644/651       534/546
+
+RTT 100 ms, Verlust 2 % je Round Trip, TCP-Startfenster 32, Pfade: / /style.css /bild1.png /bild2.png /bild3.png /bild4.png /bild5.png
+Ziel: https://server   Pfade: / /style.css /bild1.png /bild2.png /bild3.png /bild4.png /bild5.png   Durchläufe: 50
+Protokoll    n    min_ms median_ms   mean_ms    max_ms    p90_ms   conn_ms   ttfb_ms  erste_ms
+HTTP/1.1    50       420       537       610      1477       857       221       318       318
+HTTP/2      50       633       751       880      1790      1297       214       321       324
+HTTP/3      50       537       640       762      1666      1047       111       217       223
+
+Fertigstellungszeit je Ressource in ms (Median/P90):
+Ressource           HTTP/1.1        HTTP/2        HTTP/3
+/                    319/326       324/541       223/233
+/style.css           320/429       645/955       463/639
+/bild1.png           425/567      748/1297      614/1047
+/bild2.png           425/435      748/1176      639/1047
+/bild3.png           426/540      749/1176      622/1047
+/bild4.png           425/567      749/1297      638/1047
+/bild5.png           426/434      749/1176       622/951
+
+RTT 100 ms, Verlust 5 % je Round Trip, TCP-Startfenster 32, Pfade: / /style.css /bild1.png /bild2.png /bild3.png /bild4.png /bild5.png
+Ziel: https://server   Pfade: / /style.css /bild1.png /bild2.png /bild3.png /bild4.png /bild5.png   Durchläufe: 50
+Protokoll    n    min_ms median_ms   mean_ms    max_ms    p90_ms   conn_ms   ttfb_ms  erste_ms
+HTTP/1.1    50       424       849       940      2046      1488       528       320       321
+HTTP/2      50       647       957      1106      2023      1704       214       321       378
+HTTP/3      50       548      1002      1063      2064      1683       113       223       231
+
+Fertigstellungszeit je Ressource in ms (Median/P90):
+Ressource           HTTP/1.1        HTTP/2        HTTP/3
+/                    321/774       378/742       231/335
+/style.css           324/566      646/1083       578/978
+/bild1.png           428/802      865/1702      958/1683
+/bild2.png           430/846      873/1618      982/1567
+/bild3.png           428/572      917/1616      996/1683
+/bild4.png           429/666      914/1616      954/1683
+/bild5.png           431/871      957/1704      901/1582
+
+RTT 100 ms, Verlust 10 % je Round Trip, TCP-Startfenster 32, Pfade: / /style.css /bild1.png /bild2.png /bild3.png /bild4.png /bild5.png
+Ziel: https://server   Pfade: / /style.css /bild1.png /bild2.png /bild3.png /bild4.png /bild5.png   Durchläufe: 50
+Protokoll    n    min_ms median_ms   mean_ms    max_ms    p90_ms   conn_ms   ttfb_ms  erste_ms
+HTTP/1.1    50       431      1092      1312      3743      2094       641       330       332
+HTTP/2      50       778      1645      1769      5187      2726       222       336       445
+HTTP/3      50       782      1423      1622      4014      2632       117       227       232
+
+Fertigstellungszeit je Ressource in ms (Median/P90):
+Ressource           HTTP/1.1        HTTP/2        HTTP/3
+/                   334/1004      445/1221       232/580
+/style.css           458/996      796/1677      758/1510
+/bild1.png          548/1022     1212/2320     1374/2617
+/bild2.png           447/998     1276/2706     1374/2632
+/bild3.png           451/972     1330/2449     1397/2617
+/bild4.png          446/1062     1516/2496     1378/2617
+/bild5.png          554/1477     1645/2726     1243/2414
+

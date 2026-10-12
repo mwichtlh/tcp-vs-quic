@@ -1,0 +1,10 @@
+{
+	skip_install_trust
+	auto_https disable_redirects
+}
+
+https://server {
+	tls internal
+	root * /srv
+	file_server
+}

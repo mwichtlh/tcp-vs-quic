@@ -1,0 +1,44 @@
+RTT 100 ms, Verlust 0 % je Round Trip, TCP-Startfenster 32, Pfade: /
+Ziel: https://server   Pfade: /   Durchläufe: 50
+Protokoll    n    min_ms median_ms   mean_ms    max_ms   conn_ms   ttfb_ms  erste_ms
+HTTP/1.1    50       314       319       319       325       213       318       319
+HTTP/2      50       311       318       318       324       212       318       318
+HTTP/3      50       208       218       218       224       110       218       218
+
+Fertigstellungszeit je Ressource in ms (Median/P90):
+Ressource           HTTP/1.1        HTTP/2        HTTP/3
+/                    319/322       318/321       218/221
+
+RTT 100 ms, Verlust 2 % je Round Trip, TCP-Startfenster 32, Pfade: /
+Ziel: https://server   Pfade: /   Durchläufe: 50
+Protokoll    n    min_ms median_ms   mean_ms    max_ms   conn_ms   ttfb_ms  erste_ms
+HTTP/1.1    50       311       318       364      1374       212       318       318
+HTTP/2      50       313       321       362      1332       213       321       321
+HTTP/3      50       211       220       253      1607       111       220       220
+
+Fertigstellungszeit je Ressource in ms (Median/P90):
+Ressource           HTTP/1.1        HTTP/2        HTTP/3
+/                    318/322       321/423       220/227
+
+RTT 100 ms, Verlust 5 % je Round Trip, TCP-Startfenster 32, Pfade: /
+Ziel: https://server   Pfade: /   Durchläufe: 50
+Protokoll    n    min_ms median_ms   mean_ms    max_ms   conn_ms   ttfb_ms  erste_ms
+HTTP/1.1    50       312       321       421      1331       214       321       321
+HTTP/2      50       314       321       459      1801       213       321       321
+HTTP/3      50       207       220       283       626       111       220       220
+
+Fertigstellungszeit je Ressource in ms (Median/P90):
+Ressource           HTTP/1.1        HTTP/2        HTTP/3
+/                    321/728       321/738       220/541
+
+RTT 100 ms, Verlust 10 % je Round Trip, TCP-Startfenster 32, Pfade: /
+Ziel: https://server   Pfade: /   Durchläufe: 50
+Protokoll    n    min_ms median_ms   mean_ms    max_ms   conn_ms   ttfb_ms  erste_ms
+HTTP/1.1    50       313       320       554      2481       212       320       320
+HTTP/2      50       312       322       487      1509       213       322       322
+HTTP/3      50       209       218       372      1666       109       218       218
+
+Fertigstellungszeit je Ressource in ms (Median/P90):
+Ressource           HTTP/1.1        HTTP/2        HTTP/3
+/                   320/1339       322/784       218/630
+
